@@ -13,7 +13,7 @@ resource "azurerm_eventhub_namespace" "ehns" {
   }]
 
   tags = {
-    "creator"     = "markus herkommer"
+    "creator"     = "Niaz Khwja"
     "environment" = terraform.workspace
   }
 }

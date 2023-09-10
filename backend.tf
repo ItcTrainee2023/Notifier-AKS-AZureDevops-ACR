@@ -1,9 +1,9 @@
 terraform {
   backend "azurerm" {
-    tenant_id            = "0dd608f6-0108-44d4-a52f-ccddc306b592"
-    subscription_id      = "39f0f54d-f6e9-44e1-9b3c-2c82dd355541"
+    tenant_id            = "104e77d4-81e7-4c16-ab44-935220bed6dd"
+    subscription_id      = "606e824b-aaf7-4b4e-9057-b459f6a4436d"
     resource_group_name  = "notifier-resource-group"
-    storage_account_name = "notifiertfstore"
+    storage_account_name = "notifiertfstore01"
     container_name       = "notifiertfstate"
     key                  = "terraform-notifier.tfstate"
   }
