@@ -1,4 +1,4 @@
-# Define the required provider by terraform............
+# Define the required provider by terraform "TEST 1 FOR RELEASE CI/CD PIPELINE".
 provider "azurerm" {
   features {
   }
