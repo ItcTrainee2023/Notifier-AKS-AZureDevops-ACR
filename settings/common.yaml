@@ -1,0 +1,6 @@
+tenant_id: 0dd608f6-0108-44d4-a52f-ccddc306b592
+
+kv_allow:
+    notifier-devs:
+        object_id: CURRENT_LOGGED_IN_USER_OBJECT_ID
+        secret_permissions: ["get", "list", "delete", "set", "recover", "backup", "restore"]
