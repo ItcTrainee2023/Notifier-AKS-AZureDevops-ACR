@@ -1,4 +1,4 @@
-# Define the required provider by terraform.
+# Define the required provider by terraform............
 provider "azurerm" {
   features {
   }
