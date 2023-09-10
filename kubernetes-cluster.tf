@@ -27,12 +27,12 @@ output "kube_config" {
   value = azurerm_kubernetes_cluster.aks.kube_config_raw
 }
 
-resource "helm_release" "ingress" {
-    name      = local.settings.ingress_name
-    repository = "https://charts.bitnami.com/bitnami"
-    chart      = "nginx-ingress-controller"
-    set {
-        name  = "rbac.create"
-        value = "true"
-    }
-}
+# resource "helm_release" "ingress" {
+#     name      = local.settings.ingress_name
+#     repository = "https://charts.bitnami.com/bitnami"
+#     chart      = "nginx-ingress-controller"
+#     set {
+#         name  = "rbac.create"
+#         value = "true"
+#     }
+# }
