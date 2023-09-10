@@ -14,11 +14,6 @@ pool:
   vmImage: 'ubuntu-latest'
 
 steps:
-  - task: TerraformInstaller@0
-    displayName: Install Terraform Latest 
-    inputs:
-      terraformVersion: 'latest'
-
   - task: AzureCLI@1
     displayName: Authorize Azure
     inputs:
